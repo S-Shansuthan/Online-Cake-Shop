@@ -30,7 +30,7 @@ The Online Cake Shop allows customers to browse cake designs, personalize orders
 
 | Layer | Technology |
 |-------|-----------|
-| Front-End | HTML, CSS, Vanilla JavaScript |
+| Front-End | HTML, CSS,  JavaScript |
 | Back-End | PHP |
 | Database | MySQL |
 
