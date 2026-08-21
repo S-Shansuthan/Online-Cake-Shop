@@ -39,3 +39,49 @@ The Online Cake Shop allows customers to browse cake designs, personalize orders
 ## 📄 License
 
 This project was developed for academic purposes as part of the SENG 21253 module.
+online-cake-shop/
+├── index.php                    # Homepage / Catalog
+├── cake.php                     # Single cake detail page
+├── cart.php                     # Shopping cart
+├── checkout.php                 # Checkout & payment form
+├── order-success.php            # Order confirmation page
+│
+├── admin/
+│   ├── login.php                # Admin login
+│   ├── logout.php               # Admin logout
+│   ├── dashboard.php            # Admin dashboard
+│   ├── cakes.php                # View all cakes
+│   ├── cake-add.php             # Add new cake
+│   ├── cake-edit.php            # Edit/update cake
+│   ├── cake-delete.php          # Delete cake (POST handler)
+│   ├── orders.php               # View all orders
+│   └── order-detail.php        # View single order detail
+│
+├── api/
+│   ├── search.php               # AJAX search handler
+│   ├── cart-add.php             # AJAX add to cart
+│   ├── cart-remove.php          # AJAX remove from cart
+│   └── order-place.php         # Place order handler
+│
+├── includes/
+│   ├── db.php                   # PDO database connection
+│   ├── auth.php                 # Session / auth helpers
+│   ├── functions.php            # Shared utility functions
+│   ├── header.php               # Site header (customer)
+│   └── footer.php               # Site footer
+│
+├── css/
+│   ├── style.css                # Customer-facing styles
+│   └── admin.css                # Admin panel styles
+│
+├── js/
+│   ├── main.js                  # General UI interactions
+│   ├── search.js                # Live search / filter logic
+│   ├── cart.js                  # Cart management (localStorage)
+│   └── admin.js                 # Admin UI helpers
+│
+├── uploads/
+│   └── cakes/                   # Uploaded cake images
+│
+└── sql/
+    └── schema.sql               # DB schema + seed data
